@@ -1,4 +1,4 @@
-#Set Environment
+# Set Environment
 
 ## create .env file in root path, and fill in contents like below
 FITBIT_CLIENT_ID=<copy from your application profile in dev.fitbit.com>
@@ -9,7 +9,7 @@ PORT=4000 (<this should be the same with redirect_url in your application profil
 ## Application Profile
 In the application profile in dev.fitbit.com, set redirect_url as http://${IP}:${PORT}/fitbit
 
-#Generate oauth tokens
+# Generate oauth tokens
 
 ```
     > node server.js
@@ -19,7 +19,7 @@ Open the browser and access http://${IP}:${PORT}/, then log in with your fitbit 
 If all is completed, <user_id>.json is created in the root path.
 
 
-#Collect data
+# Collect data
 In config.lib.js and config.task.js, you can create your own function to handle data from fitbit.
 As an example, index.js load token from 3DKZH7. change it with your user_id and execute command in the shell
 
