@@ -1,10 +1,10 @@
 # Set Environment
 
 ## create .env file in root path, and fill in contents like below
-- FITBIT_CLIENT_ID=<copy from your application profile in dev.fitbit.com>
-- FITBIT_PRIVATE=<copy from your application profile in dev.fitbit.com>
-- IP=localhost (<this should be the same with redirect_url in your application profile>)
-- PORT=4000 (<this should be the same with redirect_url in your application profile>)
+- FITBIT_CLIENT_ID=copy from your application profile in dev.fitbit.com
+- FITBIT_PRIVATE=copy from your application profile in dev.fitbit.com
+- IP=localhost (this should be the same with redirect_url in your application profile)
+- PORT=4000 (this should be the same with redirect_url in your application profile)
 
 ## Application Profile
 In the application profile in dev.fitbit.com, set redirect_url as http://${IP}:${PORT}/fitbit
